@@ -50,7 +50,7 @@ export default function Header({ onSearch }) {
                     `}
         </style>
         <span className="hidden md:inline absolute right-12 top-4 text-xl font-bold">
-          WhatsApp: (+62) 895 7017 91492
+          WhatsApp: --
         </span>
       </div>
 
