@@ -1,5 +1,5 @@
 import Footer from "../Component/Footer";
-import Header from "../component/header";
+import Header from "../Component/Header";
 
 const Teknisi = () => {
   return (

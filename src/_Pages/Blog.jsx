@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Footer from "../Component/Footer";
-import Header from "../component/header";
+import Header from "../Component/Header";
 import { getBlogList } from "../Component/Api";
 
 const Blog = () => {

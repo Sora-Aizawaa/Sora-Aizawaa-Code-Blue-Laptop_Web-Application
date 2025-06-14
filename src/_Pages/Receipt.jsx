@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Header from "../component/header";
+import Header from "../Component/Header";
 import Footer from "../Component/Footer";
 
 const Receipt = () => {

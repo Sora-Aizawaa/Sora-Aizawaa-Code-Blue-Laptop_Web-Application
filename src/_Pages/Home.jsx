@@ -1,5 +1,5 @@
 import Footer from "../Component/Footer";
-import Header from "../component/header";
+import Header from "../Component/Header";
 import { useState } from "react";
 import monitor from "../assets/monitor.jpg";
 import ram from "../assets/ram.jpg";
