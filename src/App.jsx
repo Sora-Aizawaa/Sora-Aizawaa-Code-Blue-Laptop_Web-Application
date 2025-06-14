@@ -1,5 +1,5 @@
 import Blog from "./Pages/Blog";
-import Home from "./pages/home";
+import Home from "./Pages/Home";
 import Receipt from "./Pages/Receipt";
 import Teknisi from "./Pages/Teknisi";
 
