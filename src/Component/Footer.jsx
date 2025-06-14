@@ -89,7 +89,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold">Detail Kontak</h3>
             <p className="text-sm mt-4">Alamat Kantor :</p>
-            <p className="text-sm">WhatsApp: +62 895 7017 91492</p>
+            <p className="text-sm">WhatsApp: --</p>
             <p className="text-sm">E-mail: codebluelaptop@gmail.com</p>
             {/* <h3 className="text-lg font-bold mt-6">
               Melayani Perbaikan Laptop di Kota
