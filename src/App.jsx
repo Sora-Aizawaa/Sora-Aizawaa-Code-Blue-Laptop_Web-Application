@@ -1,7 +1,7 @@
-import Blog from "./Pages/Blog";
-import Home from "./Pages/Home";
-import Receipt from "./Pages/Receipt";
-import Teknisi from "./Pages/Teknisi";
+import Blog from "./_Pages/Blog";
+import Home from "./_Pages/Home";
+import Receipt from "./_Pages/Receipt";
+import Teknisi from "./_Pages/Teknisi";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
