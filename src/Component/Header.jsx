@@ -39,7 +39,7 @@ export default function Header({ onSearch }) {
             animation: "slideText 10s linear infinite",
           }}
         >
-          Selamat Datang Di Website Code Blue Laptop
+          Selamat Datang Di Website Blue Code Laptop
         </div>
         <style>
           {`
@@ -50,7 +50,7 @@ export default function Header({ onSearch }) {
                     `}
         </style>
         <span className="hidden md:inline absolute right-12 top-4 text-xl font-bold">
-          WhatsApp: --
+          WhatsApp: 0895701791492
         </span>
       </div>
 
@@ -59,7 +59,7 @@ export default function Header({ onSearch }) {
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="h-22 mr-2" />
           <h1 className="text-3xl font-bold">
-            <span className="text-blue-500">CodeBlue</span>Laptop
+            <span className="text-blue-500">BlueCode</span>Laptop
           </h1>
         </div>
         <nav className="hidden md:flex space-x-6">
@@ -90,7 +90,7 @@ export default function Header({ onSearch }) {
         <div className="flex items-center space-x-10">
           <div className="whitespace-nowrap overflow-hidden w-full">
             <p className="animate-marquee text-black-700 text-sm">
-              Alamat Kantor: 121 King Street, Melbourne Victoria, 1200 USA
+              Alamat Kantor: Jasa Panggilan
             </p>
           </div>
         </div>

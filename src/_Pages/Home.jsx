@@ -4,25 +4,57 @@ import { useState } from "react";
 import monitor from "../assets/monitor.jpg";
 import ram from "../assets/ram.jpg";
 import repasta from "../assets/repasta.jpg";
+import keyboard from "../assets/keyboard.jpg";
+import engsel from "../assets/engsel.jpg";
+import windows from "../assets/windows.jpg";
+import aplikasi from "../assets/aplikasi.png";
+import game from "../assets/game.jpg";
 
 const services = [
   {
-    title: "Upgrade services (RAM, SSD, etc.)",
+    title: "Service Upgrade RAM, SSD, dan Komponen Lainnya",
     description:
-      "Improve your laptop’s speed and storage by upgrading RAM, SSD, or other internal components.",
+      "Tingkatkan kecepatan dan kapasitas penyimpanan laptop Anda dengan upgrade RAM, SSD, atau komponen internal lainnya.",
     image: ram,
   },
   {
-    title: "Screen and monitor repair",
+    title: "Penggantian Komponen Lcd",
     description:
-      "Repair broken, flickering, or unresponsive screens with quality parts and expert service.",
+      "Penggantian komponen layar yang pecah, berkedip, garis-garis dan lainnya.",
     image: monitor,
   },
   {
-    title: "Thermal paste cleaning & fan maintenance",
+    title: "Penggantian Thermal Paste & Pembersihan Kipas",
     description:
-      "Reduce overheating by cleaning internal fans and replacing old thermal paste for better cooling.",
+      "Kurangi overheat dengan membersihkan kipas internal dan mengganti thermal paste lama untuk performa pendinginan yang lebih baik.",
     image: repasta,
+  },
+  {
+    title: "Penggantian Keyboard",
+    description:
+      "Ganti keyboard yang rusak, macet, atau tidak berfungsi dengan penggantian komponen yang baru.",
+    image: keyboard,
+  },
+  {
+    title: "Perbaikan Engsel Laptop",
+    description: "Perbaiki engsel laptop yang longgar, patah, atau keras.",
+    image: engsel,
+  },
+  {
+    title: "Install Ulang Sistem Operasi Windows dan VMWare WorkStation Linux",
+    description: "Install Ulang Windows 10, 11 dan Linux",
+    image: windows,
+  },
+  {
+    title: "Install Aplikasi Apapun",
+    description: "Bisa Install Aplikasi Sesuai Kebutuhan Anda.",
+    image: aplikasi,
+  },
+  {
+    title: "Install Game Apapun",
+    description:
+      "Bisa Install Game Sesuai Kemauan Anda Di Laptop, Game Ps1, Ps2, Ps3, Ps4, Game Playstore.",
+    image: game,
   },
 ];
 
@@ -39,10 +71,11 @@ const Home = () => {
       <Header onSearch={setSearchQuery} />{" "}
       {/* Kirim fungsi pencarian ke Header */}
       <div className="container mx-auto max-w-screen-xl py-4 px-4 flex-grow">
-        <h2 className="text-4xl font-bold text-center">SERVICES</h2>
+        <h2 className="text-4xl font-bold text-center">
+          SERVICE LAPTOP PANGGILAN
+        </h2>
         <p className="text-lg text-center mt-4 max-w-2xl mx-auto">
-          We offer a full range of repair services provided by an experienced
-          and specialized team.
+          Jasa Service Laptop Panggilan dan Gratis Konsultasi
         </p>
 
         {/* Tampilkan hasil pencarian */}
@@ -63,9 +96,9 @@ const Home = () => {
                     {service.title}
                   </h3>
                   <p className="text-gray-700 mt-2">{service.description}</p>
-                  <button className="mt-4 px-4 py-2 border border-black text-black hover:bg-black hover:text-white transition rounded">
+                  {/* <button className="mt-4 px-4 py-2 border border-black text-black hover:bg-black hover:text-white transition rounded">
                     READ MORE
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ))}

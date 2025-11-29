@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "../Component/Header";
 import Footer from "../Component/Footer";
+import logo from "../assets/logo.png";
 
 const Receipt = () => {
   const [data, setData] = useState({
@@ -98,11 +99,27 @@ const Receipt = () => {
                             table { width: 100%; border-collapse: collapse; }
                             th, td { border-bottom: 1px solid #ddd; padding: 8px; text-align: left; }
                             th { background-color: #f8f8f8; }
-                        </style>
+                            .logo {
+                              width: 110px;
+                              margin-bottom: 10px;
+                            }
+                            .brand-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+                            .brand-text { display: flex; flex-direction: column; line-height: 1; }
+                            .brand-name { font-size: 20px; font-weight: 700; color: #0b5ed7; }
+                            .brand-sub { font-size: 11px; color: #666; }
+                        
+                            </style>
                     </head>
                     <body>
-                        <div class="receipt-container">
-                            ${receiptContent}
+                         <div class="receipt-container">
+    <div class="brand-row">
+      <img src="${logo}" alt="Logo" class="logo" />
+      <div class="brand-text">
+        <div class="brand-name">BlueCodeLaptop</div>
+        <div class="brand-sub">Service & Repair</div>
+      </div>
+    </div>
+                        ${receiptContent}
                         </div>
                         <script>
                             setTimeout(() => { window.print(); window.close(); }, 500);
@@ -121,7 +138,7 @@ const Receipt = () => {
       <div className="flex pt-20 pb-16 px-8">
         <div id="receipt" className="w-3/5 bg-white p-6 shadow-lg">
           <h2 className="text-lg font-semibold mb-2">
-            Receipt Pembayaran Service
+            Receipt Pembayaran Service Laptop
           </h2>
           <h4 className="text-lg font-semibold mb-2">
             Atas Nama: <span className="font-semibold">{data.name}</span>
@@ -184,12 +201,12 @@ const Receipt = () => {
           </div>
           <div className="border-t border-gray-200 pt-4 mt-4 text-sm">
             <div className="flex justify-between">
-              <span>Subtotal</span>
-              <span>{formatRupiah(totals.subtotal)}</span>
+              <span>Subtotal : </span>
+              <span> {formatRupiah(totals.subtotal)}</span>
             </div>
-            <div className="flex justify-between font-bold text-green-600 text-lg mt-2">
-              <span>Total</span>
-              <span>{formatRupiah(totals.total)}</span>
+            <div className="flex justify-between font-bold text-green-600 text-lg mt-6">
+              <span>Total : </span>
+              <span> {formatRupiah(totals.total)}</span>
             </div>
           </div>
         </div>
