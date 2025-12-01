@@ -66,12 +66,12 @@ export default function Header({ onSearch }) {
           <Link to="/" className="text-blue-500 hover:text-yellow-400">
             Services
           </Link>
-          <Link to="/berita" className="text-blue-500 hover:text-yellow-400">
+          {/* <Link to="/berita" className="text-blue-500 hover:text-yellow-400">
             Berita
-          </Link>
-          <Link to="/teknisi" className="text-blue-500 hover:text-yellow-400">
+          </Link> */}
+          {/* <Link to="/teknisi" className="text-blue-500 hover:text-yellow-400">
             Teknisi
-          </Link>
+          </Link> */}
         </nav>
       </header>
 
