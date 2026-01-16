@@ -9,21 +9,21 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold">Tentang Kami</h3>
             <p className="text-sm mt-2">
-              Blue Code Laptop Merupakan Website yang menyediakan berbagai macam
+              Code Blue Laptop Merupakan Website yang menyediakan berbagai macam
               jasa panggilan service laptop dengan harga terjangkau.
             </p>
 
-            {/* <h3 className="text-lg font-bold mt-5">Bisnis Partner</h3>
+            <h3 className="text-lg font-bold mt-5">Bisnis Partner</h3>
             <ul className="text-sm mt-2 space-y-1">
               <li>
                 TeknisiGo
                 <img
-                  src="/logo.png"
+                  src="/tabtek.png"
                   alt="Logo"
                   className="w-6 h-6 inline-block ml-5"
                 />
               </li>
-            </ul> */}
+            </ul>
           </div>
 
           {/* More about store & Key Links */}
@@ -86,7 +86,11 @@ export default function Footer() {
           {/* Contact Details & Local Stores */}
           <div>
             <h3 className="text-lg font-bold">Detail Kontak</h3>
-            <p className="text-sm mt-4">Alamat Kantor : Jasa Panggilan</p>
+            <p className="text-sm mt-4">
+              Alamat Kantor : Jasa Panggilan / Jalan Tanjung Raya 2, Garden Mas
+              2, Kelurahan Saigon, Kecamatan Pontianak Timur, Kota Pontianak,
+              Provinsi Kalimantan Barat.
+            </p>
             <p className="text-sm">WhatsApp: 0895701791492</p>
             <p className="text-sm">E-mail: hazedivision127@gmail.com</p>
             {/* <h3 className="text-lg font-bold mt-6">
@@ -126,7 +130,7 @@ export default function Footer() {
             </a> */}
           </div>
           <p className="mt-4 md:mt-0">
-            Copyright | Blue Code Laptop | Developed by Muhammad Reza Anggawirya
+            Copyright | Code Blue Laptop | Developed by Muhammad Reza Anggawirya
             {/* <Link
               to="/receipt"
               target="_blank"

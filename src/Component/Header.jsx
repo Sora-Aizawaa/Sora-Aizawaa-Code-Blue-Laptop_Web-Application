@@ -39,7 +39,7 @@ export default function Header({ onSearch }) {
             animation: "slideText 10s linear infinite",
           }}
         >
-          Selamat Datang Di Website Blue Code Laptop
+          Selamat Datang Di Website Code Blue Laptop
         </div>
         <style>
           {`
@@ -59,7 +59,7 @@ export default function Header({ onSearch }) {
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="h-22 mr-2" />
           <h1 className="text-3xl font-bold">
-            <span className="text-blue-500">BlueCode</span>Laptop
+            <span className="text-blue-500">CodeBlue</span>Laptop
           </h1>
         </div>
         <nav className="hidden md:flex space-x-6">
@@ -90,7 +90,9 @@ export default function Header({ onSearch }) {
         <div className="flex items-center space-x-10">
           <div className="whitespace-nowrap overflow-hidden w-full">
             <p className="animate-marquee text-black-700 text-sm">
-              Alamat Kantor: Jasa Panggilan
+              Alamat Kantor: Jalan Tanjung Raya 2, Garden Mas 2, Kelurahan
+              Saigon, Kecamatan Pontianak Timur, Kota Pontianak, Provinsi
+              Kalimantan Barat.
             </p>
           </div>
         </div>

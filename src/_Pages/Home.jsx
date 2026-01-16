@@ -9,6 +9,8 @@ import engsel from "../assets/engsel.jpg";
 import windows from "../assets/windows.jpg";
 import aplikasi from "../assets/aplikasi.png";
 import game from "../assets/game.jpg";
+import aktivasi from "../assets/aktivasi-windows.jpg";
+import virus from "../assets/virus-removal.jpg";
 
 const services = [
   {
@@ -42,7 +44,7 @@ const services = [
   },
   {
     title: "Install Ulang Sistem Operasi Windows dan VMWare WorkStation Linux",
-    description: "Install Ulang Windows 10, 11 dan Linux",
+    description: "Install Ulang Windows 10, 11 dan Linux.",
     image: windows,
   },
   {
@@ -55,6 +57,17 @@ const services = [
     description:
       "Bisa Install Game Sesuai Kemauan Anda Di Laptop, Game Ps1, Ps2, Ps3, Ps4, Game Playstore.",
     image: game,
+  },
+  {
+    title: "Aktivasi Windows dan Office",
+    description:
+      "Aktivasi Windows dan Office Membuat Laptop Anda Nyaman Untuk Digunakan.",
+    image: aktivasi,
+  },
+  {
+    title: "Virus Removal",
+    description: "Hapus Semua Virus Di Laptop Anda Sampai Ke Akar-Akarnya.",
+    image: virus,
   },
 ];
 
@@ -72,10 +85,11 @@ const Home = () => {
       {/* Kirim fungsi pencarian ke Header */}
       <div className="container mx-auto max-w-screen-xl py-4 px-4 flex-grow">
         <h2 className="text-4xl font-bold text-center">
-          SERVICE LAPTOP PANGGILAN
+          SERVICE LAPTOP PANGGILAN/DATANG LANGSUNG
         </h2>
         <p className="text-lg text-center mt-4 max-w-2xl mx-auto">
-          Jasa Service Laptop Panggilan dan Gratis Konsultasi
+          Jasa Service Laptop Segala Penyakit - Harga Lebih Murah Dibanding Toko
+          Service Pada Umumnya
         </p>
 
         {/* Tampilkan hasil pencarian */}
