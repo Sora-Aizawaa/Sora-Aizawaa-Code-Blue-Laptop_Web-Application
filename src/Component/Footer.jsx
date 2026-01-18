@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold">Tentang Kami</h3>
             <p className="text-sm mt-2">
-              Code Blue Laptop Merupakan Website yang menyediakan berbagai macam
+              CoreFix Laptop Merupakan Website yang menyediakan berbagai macam
               jasa panggilan service laptop dengan harga terjangkau.
             </p>
 
@@ -130,7 +130,7 @@ export default function Footer() {
             </a> */}
           </div>
           <p className="mt-4 md:mt-0">
-            Copyright | Code Blue Laptop | Developed by Muhammad Reza Anggawirya
+            Copyright | CoreFix Laptop | Developed by Muhammad Reza Anggawirya
             {/* <Link
               to="/receipt"
               target="_blank"

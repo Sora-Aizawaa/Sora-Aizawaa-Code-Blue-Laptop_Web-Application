@@ -1,4 +1,5 @@
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
+import circle from "../assets/circle1.png";
 import { useState } from "react";
 import PropTypes from "prop-types";
 import { Link, useLocation } from "react-router-dom";
@@ -39,7 +40,7 @@ export default function Header({ onSearch }) {
             animation: "slideText 10s linear infinite",
           }}
         >
-          Selamat Datang Di Website Code Blue Laptop
+          Selamat Datang Di Website CoreFix Laptop
         </div>
         <style>
           {`
@@ -57,9 +58,9 @@ export default function Header({ onSearch }) {
       {/* Header */}
       <header className="bg-blue-900 text-white py-4 px-8 flex items-center justify-between">
         <div className="flex items-center">
-          <img src={logo} alt="Logo" className="h-22 mr-2" />
+          <img src={circle} alt="Logo" className="h-22 mr-2" />
           <h1 className="text-3xl font-bold">
-            <span className="text-blue-500">CodeBlue</span>Laptop
+            <span className="text-blue-500">CoreFix</span> Laptop
           </h1>
         </div>
         <nav className="hidden md:flex space-x-6">
