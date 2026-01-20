@@ -1,66 +1,112 @@
-import Footer from "../Component/Footer";
 import Header from "../Component/Header";
+import Footer from "../Component/Footer";
+import reza from "../assets/reza1.png";
+import cv from "../assets/service1.pdf";
 
 const Teknisi = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-white">
       <Header />
 
-      <main className="max-w-6xl mx-auto px-4 py-8 flex-1">
-        {/* Pastikan "Surzil Geek" sejajar dengan "Latest News" */}
+      <main className="flex-1 flex items-center justify-center px-6 py-12">
+        <div className="relative max-w-6xl w-full bg-white text-black rounded-xl border border-gray-200 shadow-xl overflow-hidden">
+          {/* <div className="absolute top-24 right-32 w-20 h-20 border-4 border-black rounded-full opacity-20"></div>
+          <div className="absolute bottom-24 left-32 w-16 h-16 border-4 border-black rounded-full opacity-20"></div> */}
 
-        <div className="flex flex-col w-full py-3 mr-15">
-          {/* Nama & Profesi */}
-          <h1 className="text-4xl font-bold">Muhammad Reza A</h1>
-          <p className="text-lg text-gray-600 font-semibold">Teknisi</p>
+          {/* ===== CONTENT ===== */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-10 relative z-10">
+            {/* ===== LEFT CONTENT ===== */}
+            <div>
+              <h1 className="text-5xl font-extrabold leading-tight text-black">
+                Muhammad <br /> Reza A
+              </h1>
 
-          {/* Deskripsi */}
-          <p className="mt-4 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+              <p className="mt-3 text-lg font-semibold text-black">
+                Teknisi Laptop
+              </p>
 
-          {/* Signature */}
-          <p className="mt-6 text-2xl font-signature">Muhammad Reza A</p>
+              <p className="mt-6 text-gray-700 max-w-md text-sm leading-relaxed">
+                Service laptop segala penyakit: Melakukan instalasi ulang sistem
+                operasi dan software pendukung kerja. Troubleshooting hardware
+                dan software. Instalasi Sistem Operasi. Perbaikan Keyboard,
+                Harddisk, Ssd, Ram, Fan dan Lain lain. Harga service jauh lebih
+                murah dibanding toko service pada umumnya.
+              </p>
 
-          {/* Informasi Kontak */}
-          <div className="mt-6">
-            <p>
-              <strong>Nick Name:</strong> Endrue Surzil Geek
-            </p>
-            <p>
-              <strong>Email:</strong> itsme@surzilgeek.com
-            </p>
-            <p>
-              <strong>Phone:</strong> (123)-456-78910
-            </p>
-            <p>
-              <strong>Date of Birth:</strong> Jan 13, 1982
-            </p>
-            <p>
-              <strong>Address:</strong> 121 King Street, Melbourne Victoria,
-              1200 USA
-            </p>
+              {/* ===== SECTIONS ===== */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 text-sm">
+                {/* Experiences */}
+                {/* <div>
+                  <h3 className="font-bold text-lg mb-2 text-black">
+                    Pengalaman
+                  </h3>
+                  <p className="text-gray-700">
+                    5+ tahun pengalaman service laptop dan PC rakitan.
+                  </p>
+                  <button className="mt-3 px-4 py-1 border border-black text-black rounded-full text-xs font-semibold">
+                    Download CV
+                  </button>
+                </div> */}
+
+                {/* Education */}
+                <div>
+                  <h3 className="font-bold text-lg mb-2 text-black">
+                    Pendidikan
+                  </h3>
+                  <p className="text-gray-700">
+                    S1 STMIK PONTIANAK JURUSAN TEKNIK INFORMATIKA
+                  </p>
+                  <a
+                    href={cv}
+                    download="CV-Muhammad-Reza.pdf"
+                    role="button"
+                    className="
+    inline-flex items-center justify-center gap-2 mt-3 px-4 py-1
+    bg-green-600 text-white border border-green-600
+    rounded-full text-xs font-semibold shadow-sm
+    hover:bg-white hover:text-blue-600 hover:border-blue-600
+    transition
+  "
+                  >
+                    Download CV
+                  </a>
+                </div>
+
+                {/* Skills */}
+                {/* <div>
+                  <h3 className="font-bold text-lg mb-2 text-black">Skills</h3>
+                  <ul className="text-gray-700 space-y-1">
+                    <li>
+                      • Melakukan instalasi ulang sistem operasi dan software
+                      pendukung kerja.
+                    </li>
+                    <li>
+                      • Perbaikan, penggantian, pembersihan dan perawatan
+                      komponen laptop.
+                    </li>
+                    <li>• Backup Data dan Install Ulang Windows</li>
+                    <li>• Cleaning Laptop dan Pasta</li>
+                  </ul>
+                </div> */}
+              </div>
+            </div>
+
+            {/* ===== RIGHT IMAGE ===== */}
+            <div className="relative flex justify-center items-center">
+              <div className="overflow-hidden rounded-[70px] w-full max-w-md border border-gray-300">
+                <img
+                  src={reza}
+                  alt="Teknisi"
+                  className="w-full h-[380px] object-cover"
+                />
+              </div>
+            </div>
           </div>
 
-          {/* Statistik */}
-          <div className="mt-10 flex flex-wrap gap-10">
-            <div>
-              <p className="text-4xl font-bold text-orange-500">35</p>
-              <p className="text-gray-600">Projects completed</p>
-            </div>
-            <div>
-              <p className="text-4xl font-bold text-purple-500">19</p>
-              <p className="text-gray-600">Winning Awards</p>
-            </div>
-            <div>
-              <p className="text-4xl font-bold text-blue-500">229</p>
-              <p className="text-gray-600">Happy Clients</p>
-            </div>
-            <div>
-              <p className="text-4xl font-bold text-green-500">19</p>
-              <p className="text-gray-600">Running Projects</p>
-            </div>
+          <br />
+          <div className="absolute bottom-1 right-8 text-sm text-black space-y-2">
+            <p>📞 0895701791492</p>
+            <p>✉️ hazedivision127@gmail.com</p>
           </div>
         </div>
       </main>
