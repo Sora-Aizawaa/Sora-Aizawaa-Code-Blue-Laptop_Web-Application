@@ -1,6 +1,6 @@
 import Header from "../Component/Header";
 import Footer from "../Component/Footer";
-import reza from "../assets/reza1.png";
+// import reza from "../assets/reza1.png";
 import cv from "../assets/service1.pdf";
 
 const Teknisi = () => {
@@ -73,32 +73,34 @@ const Teknisi = () => {
                 </div>
 
                 {/* Skills */}
-                {/* <div>
-                  <h3 className="font-bold text-lg mb-2 text-black">Skills</h3>
-                  <ul className="text-gray-700 space-y-1">
-                    <li>
-                      • Melakukan instalasi ulang sistem operasi dan software
-                      pendukung kerja.
-                    </li>
-                    <li>
-                      • Perbaikan, penggantian, pembersihan dan perawatan
-                      komponen laptop.
-                    </li>
-                    <li>• Backup Data dan Install Ulang Windows</li>
-                    <li>• Cleaning Laptop dan Pasta</li>
-                  </ul>
-                </div> */}
+                <div className="text-left">
+                  <h3 className="font-bold text-lg mb-3 text-black">
+                    Sertifikasi
+                  </h3>
+
+                  <div className="space-y-2">
+                    <p className="text-gray-700">
+                      Teknisigo Academy – Sertifikat Pelatihan Service Laptop
+                      (Interface & Advance)
+                    </p>
+
+                    <p className="text-gray-700">
+                      Certificate in HTML5 Application Development Essential
+                      (Bahasa Pemrograman HTML5)
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
             {/* ===== RIGHT IMAGE ===== */}
             <div className="relative flex justify-center items-center">
               <div className="overflow-hidden rounded-[70px] w-full max-w-md border border-gray-300">
-                <img
+                {/* <img
                   src={reza}
                   alt="Teknisi"
                   className="w-full h-[380px] object-cover"
-                />
+                /> */}
               </div>
             </div>
           </div>
