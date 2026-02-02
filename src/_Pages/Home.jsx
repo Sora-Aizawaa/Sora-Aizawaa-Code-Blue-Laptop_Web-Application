@@ -11,6 +11,7 @@ import aplikasi from "../assets/aplikasi.png";
 import game from "../assets/game.jpg";
 import aktivasi from "../assets/aktivasi-windows.jpg";
 import virus from "../assets/virus-removal.jpg";
+import pass from "../assets/pass.png";
 
 const services = [
   {
@@ -69,6 +70,12 @@ const services = [
     description: "Hapus Semua Virus Di Laptop Anda Sampai Ke Akar-Akarnya.",
     image: virus,
   },
+  {
+    title: "Lupa Password? Bisaa",
+    description:
+      "Buka Password Laptop Yang Terlupa, Bisaa, Hubungi Langsung...",
+    image: pass,
+  },
 ];
 
 const Home = () => {
@@ -76,7 +83,7 @@ const Home = () => {
 
   // Fungsi untuk menyaring layanan berdasarkan pencarian
   const filteredServices = services.filter((service) =>
-    service.title.toLowerCase().includes(searchQuery.toLowerCase())
+    service.title.toLowerCase().includes(searchQuery.toLowerCase()),
   );
 
   return (
