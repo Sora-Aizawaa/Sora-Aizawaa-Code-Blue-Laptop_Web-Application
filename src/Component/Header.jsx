@@ -51,7 +51,7 @@ export default function Header({ onSearch }) {
                     `}
         </style>
         <span className="hidden md:inline absolute right-12 top-4 text-xl font-bold">
-          WhatsApp: 0895701791492
+          WhatsApp: 
         </span>
       </div>
 
@@ -91,9 +91,7 @@ export default function Header({ onSearch }) {
         <div className="flex items-center space-x-10">
           <div className="whitespace-nowrap overflow-hidden w-full">
             <p className="animate-marquee text-black-700 text-sm">
-              Alamat Kantor: Jalan Tanjung Raya 2, Garden Mas 2, Kelurahan
-              Saigon, Kecamatan Pontianak Timur, Kota Pontianak, Provinsi
-              Kalimantan Barat.
+              Alamat Kantor: 
             </p>
           </div>
         </div>
