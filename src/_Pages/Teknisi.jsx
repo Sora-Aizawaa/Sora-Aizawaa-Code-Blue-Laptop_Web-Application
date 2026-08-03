@@ -107,8 +107,8 @@ const Teknisi = () => {
 
           <br />
           <div className="absolute bottom-1 right-8 text-sm text-black space-y-2">
-            <p>📞 0895701791492</p>
-            <p>✉️ hazedivision127@gmail.com</p>
+            <p>📞 </p>
+            <p>✉️ </p>
           </div>
         </div>
       </main>
