@@ -87,12 +87,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold">Detail Kontak</h3>
             <p className="text-sm mt-4">
-              Alamat Kantor : Jasa Panggilan / Jalan Tanjung Raya 2, Garden Mas
-              2, Kelurahan Saigon, Kecamatan Pontianak Timur, Kota Pontianak,
-              Provinsi Kalimantan Barat.
+              Alamat Kantor :.
             </p>
-            <p className="text-sm">WhatsApp: 0895701791492</p>
-            <p className="text-sm">E-mail: hazedivision127@gmail.com</p>
+            <p className="text-sm">WhatsApp: </p>
+            <p className="text-sm">E-mail: </p>
             {/* <h3 className="text-lg font-bold mt-6">
               Melayani Perbaikan Laptop di Kota
             </h3>
