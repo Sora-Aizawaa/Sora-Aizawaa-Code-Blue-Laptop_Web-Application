@@ -56,7 +56,7 @@ const Teknisi = () => {
                   <p className="text-gray-700">
                     S1 STMIK PONTIANAK JURUSAN TEKNIK INFORMATIKA
                   </p>
-                  <a
+                  {/* <a
                     href={cv}
                     download="CV-Muhammad-Reza.pdf"
                     role="button"
@@ -69,7 +69,7 @@ const Teknisi = () => {
   "
                   >
                     Download CV
-                  </a>
+                  </a> */}
                 </div>
 
                 {/* Skills */}
